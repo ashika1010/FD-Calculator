@@ -1,0 +1,78 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(245, 247, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Ensure no extra margin from the body */
+}
+
+.container {
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 20px; /* Adjusted padding for better spacing */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 400px;
+    width: 100%; /* Ensure the container does not exceed the screen width */
+    text-align: center; /* Center the content inside the container */
+}
+
+.container:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: rgb(12, 96, 151);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(20, 112, 173);
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid rgb(7, 152, 249);
+    border-radius: 50px;
+}
+
+.form-group input:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(20, 112, 173);
+}
+
+.calculatebutton {
+    padding: 10px 20px;
+    background-color: rgb(19, 125, 247);
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.calculatebutton:hover {
+    
+    background-color: rgb(9, 69, 139);
+    
+}
+
